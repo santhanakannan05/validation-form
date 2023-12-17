@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="myform">
+        <!-- ... (rest of the form code) ... -->
+        <h2>From Validation</h2>
+        <div class="form-group fullname">
+            <label for="fullname">Fullname</label>    
+            <input type="text" id="fullname" placeholder="Enter the full name">       
+
+        </div>
+        <div class="form-group email">
+            <label for="email">Email</label>    
+            <input type="text" id="email" placeholder="Enter the email address">       
+
+        </div>
+        <div class="form-group password">
+            <label for="password">Password</label>    
+            <input type="text" id="password" placeholder="Enter the password">       
+            <i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+        </div>
+        <div class="form-group date">
+            <label for="date">Birth Date</label>    
+            <input type="text" id="date" placeholder="Enter the Date ">       
+
+        </div>
+        <div class="form-group gender">
+            <label for="gender">Gender</label>    
+            <select id="gender">
+                <option value="select disabled">select the gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Others</option>
+            </select>
+
+        </div>
+        <div class="form-group submit-btn">
+            <input type="submit" value="submit" >
+        </div>
+    </form>
+    <div class="thank-you-content" style="display: none;">
+        <h1>Thank you for filling out the form correctly.</h1>
+    </div>
+
+    
+
+
+<script src="mani.js"></script>
+</body>
+</html>
